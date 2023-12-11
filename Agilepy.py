@@ -9,9 +9,16 @@ import unittest
 import contextlib
 
 # --- Implémentations ---
+# Design pattern : Prototype
+# Afin d'avoir la possiblité de créer d'autre acteurs qu'un joueur classique
+# Classe abstraite pour représenter les acteurs du jeu
+class Personne(ABC):
+    @abstractmethod
+    def __init__(self, nom):
+        pass
 
-# Classe pour représenter un joueur
-class Joueur:
+# Classe pour représenter un joueur classique
+class Joueur(Personne):
     def __init__(self, nom):
         self.nom = nom
         self.vote = None
@@ -36,12 +43,14 @@ class RegleStrict:
     def valider_votes(self, votes):
         return len(set(votes)) == 1  # Vérifie l'unanimité
 
+
 # Classe pour la règle de vote moyenne
 class RegleMoyenne:
     def valider_votes(self, votes):
         return True  # Logique spécifique pour la règle moyenne
 
-# Fabrique de règles
+# Design pattern : Factory
+# Permet de créer les types de règle du jeu
 class FabriqueRegle:
     def creer_regle(self, type_regle):
         if type_regle == 'strict':
@@ -51,6 +60,8 @@ class FabriqueRegle:
         else:
             raise ValueError("Type de règle invalide")
 
+# Design pattern : Singleton 
+# Possède une seule instance
 # Classe principale représentant le jeu
 class Jeu:
     def __init__(self, stockage_backlog, fabrique_regle, chronometre):
@@ -177,8 +188,13 @@ class TestJeu(unittest.TestCase):
         # Simulation de l'entrée utilisateur pour les votes (vous pouvez ajuster en fonction de votre implémentation réelle)
         jeu.voter_sur_backlog()
 
+        # ! fonctionne pas !
         # Test sauvegarde en Json avancée backlog
         jeu.backlog_actuel.sauvegarder_en_json("backlog.json")
+        jeu.backlog_actuel = Backlog()
+        jeu.backlog_actuel.charger_depuis_json("backlog.json")
+
+        jeu.voter_sur_backlog()
 
         # with patch('builtins.print', side_effect=lambda *args: None):  # Simulation de print pour capturer la sortie
         #     with StringIO() as mock_stdout:
