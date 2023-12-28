@@ -1,0 +1,51 @@
+\hypertarget{classAgilepy_1_1Affichage}{}\doxysection{Agilepy.\+Affichage Class Reference}
+\label{classAgilepy_1_1Affichage}\index{Agilepy.Affichage@{Agilepy.Affichage}}
+
+
+Inheritance diagram for Agilepy.\+Affichage\+:
+% FIG 0
+
+
+Collaboration diagram for Agilepy.\+Affichage\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classAgilepy_1_1Affichage_a918ec38f23869024cb924958c66a6436}\label{classAgilepy_1_1Affichage_a918ec38f23869024cb924958c66a6436}} 
+def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self)
+\item 
+\mbox{\Hypertarget{classAgilepy_1_1Affichage_a2b4092c8a9eede36890a6b99968414de}\label{classAgilepy_1_1Affichage_a2b4092c8a9eede36890a6b99968414de}} 
+def {\bfseries afficher\+\_\+page\+\_\+menu} (self)
+\item 
+\mbox{\Hypertarget{classAgilepy_1_1Affichage_a21d58f4002cc969995846fcf808c792f}\label{classAgilepy_1_1Affichage_a21d58f4002cc969995846fcf808c792f}} 
+def {\bfseries afficher\+\_\+page\+\_\+vote} (self)
+\item 
+\mbox{\Hypertarget{classAgilepy_1_1Affichage_ab91a04a114b54444866340d0f5208807}\label{classAgilepy_1_1Affichage_ab91a04a114b54444866340d0f5208807}} 
+def {\bfseries afficher\+\_\+page\+\_\+resultat} (self, backlog)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classAgilepy_1_1Affichage_af0c9e752ff8aa5471c3a351180b6542a}\label{classAgilepy_1_1Affichage_af0c9e752ff8aa5471c3a351180b6542a}} 
+{\bfseries menu}
+\item 
+\mbox{\Hypertarget{classAgilepy_1_1Affichage_aa7ebb40d8bf7c223347897fe42227156}\label{classAgilepy_1_1Affichage_aa7ebb40d8bf7c223347897fe42227156}} 
+{\bfseries backlog}
+\item 
+\mbox{\Hypertarget{classAgilepy_1_1Affichage_afb8ed554d44208b74ce2168aa7146601}\label{classAgilepy_1_1Affichage_afb8ed554d44208b74ce2168aa7146601}} 
+{\bfseries page\+\_\+menu}
+\item 
+\mbox{\Hypertarget{classAgilepy_1_1Affichage_aaf1e3c3940d63e9ec5610adae5c273f6}\label{classAgilepy_1_1Affichage_aaf1e3c3940d63e9ec5610adae5c273f6}} 
+{\bfseries page\+\_\+vote}
+\item 
+\mbox{\Hypertarget{classAgilepy_1_1Affichage_a7e86723a5fed605f13f10d8c5dc183b4}\label{classAgilepy_1_1Affichage_a7e86723a5fed605f13f10d8c5dc183b4}} 
+{\bfseries page\+\_\+resultat}
+\item 
+\mbox{\Hypertarget{classAgilepy_1_1Affichage_ab47cbd94914340da91c5f40349e48588}\label{classAgilepy_1_1Affichage_ab47cbd94914340da91c5f40349e48588}} 
+{\bfseries page\+\_\+courante}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Agilepy.\+py\end{DoxyCompactItemize}

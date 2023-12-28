@@ -1,0 +1,113 @@
+\hypertarget{classplanning__poker_1_1Menu}{}\doxysection{planning\+\_\+poker.\+Menu Class Reference}
+\label{classplanning__poker_1_1Menu}\index{planning\_poker.Menu@{planning\_poker.Menu}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classplanning__poker_1_1Menu_a29a9cf68fc2062e0aa1ffc9558ddd5e3}{\+\_\+\+\_\+new\+\_\+\+\_\+}} (cls)
+\item 
+def \mbox{\hyperlink{classplanning__poker_1_1Menu_ad698c0badcd5686fae6af547a56fd72e}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self)
+\item 
+def \mbox{\hyperlink{classplanning__poker_1_1Menu_a81cb3e65b9d3e53da8f30c8ec0abd313}{config\+\_\+joueurs}} (self, nb\+\_\+joueurs)
+\item 
+def \mbox{\hyperlink{classplanning__poker_1_1Menu_a4d1175cc2867440aaafbc765dfd42152}{config\+\_\+backlog}} (self, fichier\+\_\+json)
+\item 
+def \mbox{\hyperlink{classplanning__poker_1_1Menu_af41527914e6bfacc62a702d403ed05a6}{config\+\_\+regle}} (self, regle)
+\item 
+def \mbox{\hyperlink{classplanning__poker_1_1Menu_a353f10cd6808b2c435fab14a8e49c395}{lancer\+\_\+jeu}} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1Menu_a84a46bd20d466f626a4ac4ff6d2e2b53}\label{classplanning__poker_1_1Menu_a84a46bd20d466f626a4ac4ff6d2e2b53}} 
+{\bfseries joueurs}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1Menu_a5e236609b39ab2e646d36389137b0daa}\label{classplanning__poker_1_1Menu_a5e236609b39ab2e646d36389137b0daa}} 
+{\bfseries backlog}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1Menu_a8657c384d619acc5ca0a24ac3f9e3221}\label{classplanning__poker_1_1Menu_a8657c384d619acc5ca0a24ac3f9e3221}} 
+{\bfseries regle}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1Menu_ab7ab289cda3c66519891c4adaed57fc0}\label{classplanning__poker_1_1Menu_ab7ab289cda3c66519891c4adaed57fc0}} 
+{\bfseries jeu} = None
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@class Menu
+@brief Classe pour gérer les configurations et lancement du jeu.
+
+Utilise le modèle de conception Singleton pour s'assurer qu'il n'y a qu'une seule instance de Menu.
+
+@var _instance: Instance unique de la classe Menu.
+@var jeu: Instance de la classe Jeu pour le jeu en cours.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classplanning__poker_1_1Menu_ad698c0badcd5686fae6af547a56fd72e}\label{classplanning__poker_1_1Menu_ad698c0badcd5686fae6af547a56fd72e}} 
+\index{planning\_poker.Menu@{planning\_poker.Menu}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!planning\_poker.Menu@{planning\_poker.Menu}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def planning\+\_\+poker.\+Menu.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Méthode d'initialisation de la classe Menu.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classplanning__poker_1_1Menu_a29a9cf68fc2062e0aa1ffc9558ddd5e3}\label{classplanning__poker_1_1Menu_a29a9cf68fc2062e0aa1ffc9558ddd5e3}} 
+\index{planning\_poker.Menu@{planning\_poker.Menu}!\_\_new\_\_@{\_\_new\_\_}}
+\index{\_\_new\_\_@{\_\_new\_\_}!planning\_poker.Menu@{planning\_poker.Menu}}
+\doxysubsubsection{\texorpdfstring{\_\_new\_\_()}{\_\_new\_\_()}}
+{\footnotesize\ttfamily def planning\+\_\+poker.\+Menu.\+\_\+\+\_\+new\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{cls }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Méthode pour créer une nouvelle instance de Menu si elle n'existe pas déjà.
+
+@return Instance unique de la classe Menu.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classplanning__poker_1_1Menu_a4d1175cc2867440aaafbc765dfd42152}\label{classplanning__poker_1_1Menu_a4d1175cc2867440aaafbc765dfd42152}} 
+\index{planning\_poker.Menu@{planning\_poker.Menu}!config\_backlog@{config\_backlog}}
+\index{config\_backlog@{config\_backlog}!planning\_poker.Menu@{planning\_poker.Menu}}
+\doxysubsubsection{\texorpdfstring{config\_backlog()}{config\_backlog()}}
+{\footnotesize\ttfamily def planning\+\_\+poker.\+Menu.\+config\+\_\+backlog (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{fichier\+\_\+json }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Configurer le fichier backlog du jeu.
+
+@param fichier_json: Chemin du fichier backlog en format JSON.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classplanning__poker_1_1Menu_a81cb3e65b9d3e53da8f30c8ec0abd313}\label{classplanning__poker_1_1Menu_a81cb3e65b9d3e53da8f30c8ec0abd313}} 
+\index{planning\_poker.Menu@{planning\_poker.Menu}!config\_joueurs@{config\_joueurs}}
+\index{config\_joueurs@{config\_joueurs}!planning\_poker.Menu@{planning\_poker.Menu}}
+\doxysubsubsection{\texorpdfstring{config\_joueurs()}{config\_joueurs()}}
+{\footnotesize\ttfamily def planning\+\_\+poker.\+Menu.\+config\+\_\+joueurs (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{nb\+\_\+joueurs }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Configurer le nombre de joueurs dans le jeu.
+
+@param nb_joueurs: Nombre de joueurs dans le jeu.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classplanning__poker_1_1Menu_af41527914e6bfacc62a702d403ed05a6}\label{classplanning__poker_1_1Menu_af41527914e6bfacc62a702d403ed05a6}} 
+\index{planning\_poker.Menu@{planning\_poker.Menu}!config\_regle@{config\_regle}}
+\index{config\_regle@{config\_regle}!planning\_poker.Menu@{planning\_poker.Menu}}
+\doxysubsubsection{\texorpdfstring{config\_regle()}{config\_regle()}}
+{\footnotesize\ttfamily def planning\+\_\+poker.\+Menu.\+config\+\_\+regle (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{regle }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Configurer la règle de vote du jeu.
+
+@param regle: Chaîne de caractères représentant la règle de vote ("strict" ou "moyenne").
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classplanning__poker_1_1Menu_a353f10cd6808b2c435fab14a8e49c395}\label{classplanning__poker_1_1Menu_a353f10cd6808b2c435fab14a8e49c395}} 
+\index{planning\_poker.Menu@{planning\_poker.Menu}!lancer\_jeu@{lancer\_jeu}}
+\index{lancer\_jeu@{lancer\_jeu}!planning\_poker.Menu@{planning\_poker.Menu}}
+\doxysubsubsection{\texorpdfstring{lancer\_jeu()}{lancer\_jeu()}}
+{\footnotesize\ttfamily def planning\+\_\+poker.\+Menu.\+lancer\+\_\+jeu (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Lancer le jeu avec les configurations actuelles.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+planning\+\_\+poker.\+py\end{DoxyCompactItemize}

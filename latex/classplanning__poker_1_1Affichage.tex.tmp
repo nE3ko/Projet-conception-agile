@@ -1,0 +1,102 @@
+\hypertarget{classplanning__poker_1_1Affichage}{}\doxysection{planning\+\_\+poker.\+Affichage Class Reference}
+\label{classplanning__poker_1_1Affichage}\index{planning\_poker.Affichage@{planning\_poker.Affichage}}
+
+
+Inheritance diagram for planning\+\_\+poker.\+Affichage\+:
+% FIG 0
+
+
+Collaboration diagram for planning\+\_\+poker.\+Affichage\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classplanning__poker_1_1Affichage_a4cb4b9d007ec1aebfbecb1947e0ce8d6}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self)
+\item 
+def \mbox{\hyperlink{classplanning__poker_1_1Affichage_abe7e7b1bc489bdef8f1536e8876c8fb8}{afficher\+\_\+page\+\_\+menu}} (self)
+\item 
+def \mbox{\hyperlink{classplanning__poker_1_1Affichage_a924ed814f0f026bb564c85e994386323}{afficher\+\_\+page\+\_\+vote}} (self)
+\item 
+def \mbox{\hyperlink{classplanning__poker_1_1Affichage_ab5f3bfcb2fb739198c117536ac804990}{afficher\+\_\+page\+\_\+resultat}} (self, backlog)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1Affichage_a408a045a4cea48c58431132584ea84ba}\label{classplanning__poker_1_1Affichage_a408a045a4cea48c58431132584ea84ba}} 
+{\bfseries menu}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1Affichage_af5304db613532dc4d914ee18bd56377c}\label{classplanning__poker_1_1Affichage_af5304db613532dc4d914ee18bd56377c}} 
+{\bfseries backlog}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1Affichage_a38dcc78c841ed6aecdeb5058a9f2d156}\label{classplanning__poker_1_1Affichage_a38dcc78c841ed6aecdeb5058a9f2d156}} 
+{\bfseries page\+\_\+menu}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1Affichage_adae15d74b0dc4537e787cee97d04d406}\label{classplanning__poker_1_1Affichage_adae15d74b0dc4537e787cee97d04d406}} 
+{\bfseries page\+\_\+vote}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1Affichage_a8a79ffec98a7613366db841237bac0df}\label{classplanning__poker_1_1Affichage_a8a79ffec98a7613366db841237bac0df}} 
+{\bfseries page\+\_\+resultat}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1Affichage_af6d18de32123f83bce4c28443f1c8795}\label{classplanning__poker_1_1Affichage_af6d18de32123f83bce4c28443f1c8795}} 
+{\bfseries page\+\_\+courante}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@class Affichage
+@brief Classe pour gérer l'affichage de l'application Planning Poker.
+
+Hérite de la classe Tk de tkinter.
+
+@var menu: Instance de la classe Menu pour gérer les configurations du jeu.
+@var backlog: Instance de la classe Backlog pour gérer le fichier backlog du jeu.
+@var page_menu: Instance de la classe PageMenu pour afficher la page de configuration.
+@var page_vote: Instance de la classe PageVote pour afficher la page de vote.
+@var page_resultat: Instance de la classe PageResultat pour afficher la page de résultats.
+@var page_courante: Page actuellement affichée.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classplanning__poker_1_1Affichage_a4cb4b9d007ec1aebfbecb1947e0ce8d6}\label{classplanning__poker_1_1Affichage_a4cb4b9d007ec1aebfbecb1947e0ce8d6}} 
+\index{planning\_poker.Affichage@{planning\_poker.Affichage}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!planning\_poker.Affichage@{planning\_poker.Affichage}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def planning\+\_\+poker.\+Affichage.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Constructeur de la classe Affichage.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classplanning__poker_1_1Affichage_abe7e7b1bc489bdef8f1536e8876c8fb8}\label{classplanning__poker_1_1Affichage_abe7e7b1bc489bdef8f1536e8876c8fb8}} 
+\index{planning\_poker.Affichage@{planning\_poker.Affichage}!afficher\_page\_menu@{afficher\_page\_menu}}
+\index{afficher\_page\_menu@{afficher\_page\_menu}!planning\_poker.Affichage@{planning\_poker.Affichage}}
+\doxysubsubsection{\texorpdfstring{afficher\_page\_menu()}{afficher\_page\_menu()}}
+{\footnotesize\ttfamily def planning\+\_\+poker.\+Affichage.\+afficher\+\_\+page\+\_\+menu (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Afficher la page de configuration.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classplanning__poker_1_1Affichage_ab5f3bfcb2fb739198c117536ac804990}\label{classplanning__poker_1_1Affichage_ab5f3bfcb2fb739198c117536ac804990}} 
+\index{planning\_poker.Affichage@{planning\_poker.Affichage}!afficher\_page\_resultat@{afficher\_page\_resultat}}
+\index{afficher\_page\_resultat@{afficher\_page\_resultat}!planning\_poker.Affichage@{planning\_poker.Affichage}}
+\doxysubsubsection{\texorpdfstring{afficher\_page\_resultat()}{afficher\_page\_resultat()}}
+{\footnotesize\ttfamily def planning\+\_\+poker.\+Affichage.\+afficher\+\_\+page\+\_\+resultat (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{backlog }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Afficher la page de résultats avec le backlog spécifié.
+
+@param backlog: Dictionnaire contenant les fonctionnalités et leurs votes.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classplanning__poker_1_1Affichage_a924ed814f0f026bb564c85e994386323}\label{classplanning__poker_1_1Affichage_a924ed814f0f026bb564c85e994386323}} 
+\index{planning\_poker.Affichage@{planning\_poker.Affichage}!afficher\_page\_vote@{afficher\_page\_vote}}
+\index{afficher\_page\_vote@{afficher\_page\_vote}!planning\_poker.Affichage@{planning\_poker.Affichage}}
+\doxysubsubsection{\texorpdfstring{afficher\_page\_vote()}{afficher\_page\_vote()}}
+{\footnotesize\ttfamily def planning\+\_\+poker.\+Affichage.\+afficher\+\_\+page\+\_\+vote (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Afficher la page de vote et lancer la fonction de jeu.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+planning\+\_\+poker.\+py\end{DoxyCompactItemize}

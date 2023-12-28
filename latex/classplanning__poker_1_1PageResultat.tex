@@ -1,0 +1,98 @@
+\hypertarget{classplanning__poker_1_1PageResultat}{}\doxysection{planning\+\_\+poker.\+Page\+Resultat Class Reference}
+\label{classplanning__poker_1_1PageResultat}\index{planning\_poker.PageResultat@{planning\_poker.PageResultat}}
+
+
+Inheritance diagram for planning\+\_\+poker.\+Page\+Resultat\+:
+% FIG 0
+
+
+Collaboration diagram for planning\+\_\+poker.\+Page\+Resultat\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classplanning__poker_1_1PageResultat_a3151b1f875843562436725a6452a95c4}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, master)
+\item 
+def \mbox{\hyperlink{classplanning__poker_1_1PageResultat_af42c33e6543b9807d5c86cdb5e33fd30}{ajouter\+\_\+fonctionnalites}} (self)
+\item 
+def \mbox{\hyperlink{classplanning__poker_1_1PageResultat_ac00273939e138a38750219d3208529cd}{on\+\_\+cadre\+\_\+configure}} (self, event)
+\item 
+def \mbox{\hyperlink{classplanning__poker_1_1PageResultat_a729d706d958fd61a94be0abefdcb1c6d}{on\+\_\+canvas\+\_\+configure}} (self, event)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1PageResultat_a4204dd3b8198f95dee52cd85e868105d}\label{classplanning__poker_1_1PageResultat_a4204dd3b8198f95dee52cd85e868105d}} 
+{\bfseries canvas}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1PageResultat_a6c6dcefc86f90e377f11af7dbeab06ba}\label{classplanning__poker_1_1PageResultat_a6c6dcefc86f90e377f11af7dbeab06ba}} 
+{\bfseries scrollbar}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1PageResultat_a461826329ca4efbc0ef391681b61c25a}\label{classplanning__poker_1_1PageResultat_a461826329ca4efbc0ef391681b61c25a}} 
+{\bfseries cadre\+\_\+fonctionnalites}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1PageResultat_a5dffa0e6720f89a49bb5bc8c503c987f}\label{classplanning__poker_1_1PageResultat_a5dffa0e6720f89a49bb5bc8c503c987f}} 
+{\bfseries tableau}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@class PageResultat
+@brief Classe pour gérer la page de résultats du Planning Poker.
+
+Hérite de la classe Frame de tkinter.
+
+@var canvas: Widget Canvas pour permettre le défilement vertical.
+@var scrollbar: Barre de défilement associée au Canvas.
+@var cadre_fonctionnalites: Cadre pour contenir les fonctionnalités affichées.
+@var tableau: Widget Treeview pour afficher les fonctionnalités et les votes.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classplanning__poker_1_1PageResultat_a3151b1f875843562436725a6452a95c4}\label{classplanning__poker_1_1PageResultat_a3151b1f875843562436725a6452a95c4}} 
+\index{planning\_poker.PageResultat@{planning\_poker.PageResultat}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!planning\_poker.PageResultat@{planning\_poker.PageResultat}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def planning\+\_\+poker.\+Page\+Resultat.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{master }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Constructeur de la classe PageResultat.
+
+@param master: Fenêtre principale de l'application.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classplanning__poker_1_1PageResultat_af42c33e6543b9807d5c86cdb5e33fd30}\label{classplanning__poker_1_1PageResultat_af42c33e6543b9807d5c86cdb5e33fd30}} 
+\index{planning\_poker.PageResultat@{planning\_poker.PageResultat}!ajouter\_fonctionnalites@{ajouter\_fonctionnalites}}
+\index{ajouter\_fonctionnalites@{ajouter\_fonctionnalites}!planning\_poker.PageResultat@{planning\_poker.PageResultat}}
+\doxysubsubsection{\texorpdfstring{ajouter\_fonctionnalites()}{ajouter\_fonctionnalites()}}
+{\footnotesize\ttfamily def planning\+\_\+poker.\+Page\+Resultat.\+ajouter\+\_\+fonctionnalites (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Ajoute les fonctionnalités et les votes au tableau.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classplanning__poker_1_1PageResultat_ac00273939e138a38750219d3208529cd}\label{classplanning__poker_1_1PageResultat_ac00273939e138a38750219d3208529cd}} 
+\index{planning\_poker.PageResultat@{planning\_poker.PageResultat}!on\_cadre\_configure@{on\_cadre\_configure}}
+\index{on\_cadre\_configure@{on\_cadre\_configure}!planning\_poker.PageResultat@{planning\_poker.PageResultat}}
+\doxysubsubsection{\texorpdfstring{on\_cadre\_configure()}{on\_cadre\_configure()}}
+{\footnotesize\ttfamily def planning\+\_\+poker.\+Page\+Resultat.\+on\+\_\+cadre\+\_\+configure (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{event }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Met à jour la taille du Canvas quand le cadre intérieur change de taille.
+
+@param event: Événement de configuration du cadre intérieur.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classplanning__poker_1_1PageResultat_a729d706d958fd61a94be0abefdcb1c6d}\label{classplanning__poker_1_1PageResultat_a729d706d958fd61a94be0abefdcb1c6d}} 
+\index{planning\_poker.PageResultat@{planning\_poker.PageResultat}!on\_canvas\_configure@{on\_canvas\_configure}}
+\index{on\_canvas\_configure@{on\_canvas\_configure}!planning\_poker.PageResultat@{planning\_poker.PageResultat}}
+\doxysubsubsection{\texorpdfstring{on\_canvas\_configure()}{on\_canvas\_configure()}}
+{\footnotesize\ttfamily def planning\+\_\+poker.\+Page\+Resultat.\+on\+\_\+canvas\+\_\+configure (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{event }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Ajuste la largeur du cadre intérieur pour correspondre à la largeur du Canvas.
+
+@param event: Événement de configuration du Canvas.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+planning\+\_\+poker.\+py\end{DoxyCompactItemize}

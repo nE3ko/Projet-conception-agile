@@ -1,0 +1,108 @@
+\hypertarget{classplanning__poker_1_1PageVote}{}\doxysection{planning\+\_\+poker.\+Page\+Vote Class Reference}
+\label{classplanning__poker_1_1PageVote}\index{planning\_poker.PageVote@{planning\_poker.PageVote}}
+
+
+Inheritance diagram for planning\+\_\+poker.\+Page\+Vote\+:
+% FIG 0
+
+
+Collaboration diagram for planning\+\_\+poker.\+Page\+Vote\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classplanning__poker_1_1PageVote_aa3dbf6c0a95cab5fe850d136cb2d5c05}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, master)
+\item 
+def \mbox{\hyperlink{classplanning__poker_1_1PageVote_afbe9098f76406ddc8a4be525176b3299}{ajouter\+\_\+bouton\+\_\+image}} (self, chemin\+\_\+image, ligne, colonne)
+\item 
+def \mbox{\hyperlink{classplanning__poker_1_1PageVote_a151838fb3f93dd6fd61054276244b801}{carte\+\_\+choisie}} (self, chemin\+\_\+image)
+\item 
+def \mbox{\hyperlink{classplanning__poker_1_1PageVote_a341210ebdaffed7388123dce766bfde1}{vote\+\_\+joueur\+\_\+n}} (self, n, fonctionnalite)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1PageVote_adf9a0f238769eccb17f54dbf67054a80}\label{classplanning__poker_1_1PageVote_adf9a0f238769eccb17f54dbf67054a80}} 
+{\bfseries vote\+\_\+j\+\_\+n}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1PageVote_ade2b2a7b9b70aae8d76ddf47fcf06cd3}\label{classplanning__poker_1_1PageVote_ade2b2a7b9b70aae8d76ddf47fcf06cd3}} 
+{\bfseries explication}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1PageVote_a9cab9c2113cb338310eabd7288d094b1}\label{classplanning__poker_1_1PageVote_a9cab9c2113cb338310eabd7288d094b1}} 
+{\bfseries fonctionnalite}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1PageVote_ae5cf8f5c92225fe3296ea69182bd6751}\label{classplanning__poker_1_1PageVote_ae5cf8f5c92225fe3296ea69182bd6751}} 
+{\bfseries vote}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1PageVote_a3b8a4b88cddee4cecf5bfaba09f7e6ee}\label{classplanning__poker_1_1PageVote_a3b8a4b88cddee4cecf5bfaba09f7e6ee}} 
+{\bfseries erreur}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@class PageVote
+@brief Classe pour gérer la page de vote du Planning Poker.
+
+Hérite de la classe Frame de tkinter.
+
+@var vote_j_n: Variable de chaîne pour afficher le numéro du joueur.
+@var explication: Variable de chaîne pour afficher l'explication du vote.
+@var fonctionnalite: Variable de chaîne pour afficher le titre de la fonctionnalité.
+@var vote: Variable de chaîne pour stocker le vote sélectionné par le joueur.
+@var erreur: Variable de chaîne pour afficher les messages d'erreur.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classplanning__poker_1_1PageVote_aa3dbf6c0a95cab5fe850d136cb2d5c05}\label{classplanning__poker_1_1PageVote_aa3dbf6c0a95cab5fe850d136cb2d5c05}} 
+\index{planning\_poker.PageVote@{planning\_poker.PageVote}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!planning\_poker.PageVote@{planning\_poker.PageVote}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def planning\+\_\+poker.\+Page\+Vote.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{master }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Constructeur de la classe PageVote.
+
+@param master: Fenêtre principale de l'application.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classplanning__poker_1_1PageVote_afbe9098f76406ddc8a4be525176b3299}\label{classplanning__poker_1_1PageVote_afbe9098f76406ddc8a4be525176b3299}} 
+\index{planning\_poker.PageVote@{planning\_poker.PageVote}!ajouter\_bouton\_image@{ajouter\_bouton\_image}}
+\index{ajouter\_bouton\_image@{ajouter\_bouton\_image}!planning\_poker.PageVote@{planning\_poker.PageVote}}
+\doxysubsubsection{\texorpdfstring{ajouter\_bouton\_image()}{ajouter\_bouton\_image()}}
+{\footnotesize\ttfamily def planning\+\_\+poker.\+Page\+Vote.\+ajouter\+\_\+bouton\+\_\+image (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{chemin\+\_\+image,  }\item[{}]{ligne,  }\item[{}]{colonne }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Ajouter un bouton avec une image à la grille.
+
+@param chemin_image: Chemin de l'image à afficher sur le bouton.
+@param ligne: Ligne de la grille où placer le bouton.
+@param colonne: Colonne de la grille où placer le bouton.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classplanning__poker_1_1PageVote_a151838fb3f93dd6fd61054276244b801}\label{classplanning__poker_1_1PageVote_a151838fb3f93dd6fd61054276244b801}} 
+\index{planning\_poker.PageVote@{planning\_poker.PageVote}!carte\_choisie@{carte\_choisie}}
+\index{carte\_choisie@{carte\_choisie}!planning\_poker.PageVote@{planning\_poker.PageVote}}
+\doxysubsubsection{\texorpdfstring{carte\_choisie()}{carte\_choisie()}}
+{\footnotesize\ttfamily def planning\+\_\+poker.\+Page\+Vote.\+carte\+\_\+choisie (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{chemin\+\_\+image }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Mettre à jour la variable de vote en fonction de l'image sélectionnée.
+
+@param chemin_image: Chemin de l'image sélectionnée.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classplanning__poker_1_1PageVote_a341210ebdaffed7388123dce766bfde1}\label{classplanning__poker_1_1PageVote_a341210ebdaffed7388123dce766bfde1}} 
+\index{planning\_poker.PageVote@{planning\_poker.PageVote}!vote\_joueur\_n@{vote\_joueur\_n}}
+\index{vote\_joueur\_n@{vote\_joueur\_n}!planning\_poker.PageVote@{planning\_poker.PageVote}}
+\doxysubsubsection{\texorpdfstring{vote\_joueur\_n()}{vote\_joueur\_n()}}
+{\footnotesize\ttfamily def planning\+\_\+poker.\+Page\+Vote.\+vote\+\_\+joueur\+\_\+n (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{n,  }\item[{}]{fonctionnalite }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Afficher les éléments nécessaires pour le vote du joueur n.
+
+@param n: Numéro du joueur.
+@param fonctionnalite: Titre de la fonctionnalité à voter.
+@return: Le vote du joueur.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+planning\+\_\+poker.\+py\end{DoxyCompactItemize}

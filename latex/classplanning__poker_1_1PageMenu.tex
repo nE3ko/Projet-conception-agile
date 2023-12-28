@@ -1,0 +1,96 @@
+\hypertarget{classplanning__poker_1_1PageMenu}{}\doxysection{planning\+\_\+poker.\+Page\+Menu Class Reference}
+\label{classplanning__poker_1_1PageMenu}\index{planning\_poker.PageMenu@{planning\_poker.PageMenu}}
+
+
+Inheritance diagram for planning\+\_\+poker.\+Page\+Menu\+:
+% FIG 0
+
+
+Collaboration diagram for planning\+\_\+poker.\+Page\+Menu\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classplanning__poker_1_1PageMenu_a5660c4f573e5e3f3d8a66501abb918d5}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, master)
+\item 
+def \mbox{\hyperlink{classplanning__poker_1_1PageMenu_a7c38d9458442ac05b55652af5022b78d}{choix\+\_\+fichier}} (self)
+\item 
+def \mbox{\hyperlink{classplanning__poker_1_1PageMenu_a049604b3ddd7b8acbe16bae7d9402afd}{commencer}} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1PageMenu_a835d3e0c7f86491cb1dcd4b19085e043}\label{classplanning__poker_1_1PageMenu_a835d3e0c7f86491cb1dcd4b19085e043}} 
+{\bfseries regle}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1PageMenu_af01261801df0227eacf9e68bf6991310}\label{classplanning__poker_1_1PageMenu_af01261801df0227eacf9e68bf6991310}} 
+{\bfseries liste\+\_\+deroulante}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1PageMenu_a224627616356d48e2a1b0c52709eedae}\label{classplanning__poker_1_1PageMenu_a224627616356d48e2a1b0c52709eedae}} 
+{\bfseries message\+\_\+err}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1PageMenu_a6fcbc747b1cb88a5ffc24b7f22b247da}\label{classplanning__poker_1_1PageMenu_a6fcbc747b1cb88a5ffc24b7f22b247da}} 
+{\bfseries etiquette\+\_\+message}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1PageMenu_a3ad8b171b52e989b337ee3ec75280abb}\label{classplanning__poker_1_1PageMenu_a3ad8b171b52e989b337ee3ec75280abb}} 
+{\bfseries backlog}
+\item 
+\mbox{\Hypertarget{classplanning__poker_1_1PageMenu_ad6822ce3224097cb0e7f08582428fa2b}\label{classplanning__poker_1_1PageMenu_ad6822ce3224097cb0e7f08582428fa2b}} 
+{\bfseries valeur\+\_\+molette}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@class PageMenu
+@brief Classe pour gérer la page de configuration du Planning Poker.
+
+Hérite de la classe Frame de tkinter.
+
+@var regle: Variable de chaîne pour stocker la règle sélectionnée (par défaut: "strict").
+@var liste_deroulante: Menu déroulant pour sélectionner la règle.
+@var message_err: Variable de chaîne pour afficher les messages d'erreur.
+@var etiquette_message: Étiquette pour afficher le message d'erreur.
+@var backlog: Chemin du fichier backlog sélectionné.
+@var valeur_molette: Variable entière pour stocker le nombre de joueurs sélectionné via la molette.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classplanning__poker_1_1PageMenu_a5660c4f573e5e3f3d8a66501abb918d5}\label{classplanning__poker_1_1PageMenu_a5660c4f573e5e3f3d8a66501abb918d5}} 
+\index{planning\_poker.PageMenu@{planning\_poker.PageMenu}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!planning\_poker.PageMenu@{planning\_poker.PageMenu}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def planning\+\_\+poker.\+Page\+Menu.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{master }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Constructeur de la classe PageMenu.
+
+@param master: Fenêtre principale de l'application.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classplanning__poker_1_1PageMenu_a7c38d9458442ac05b55652af5022b78d}\label{classplanning__poker_1_1PageMenu_a7c38d9458442ac05b55652af5022b78d}} 
+\index{planning\_poker.PageMenu@{planning\_poker.PageMenu}!choix\_fichier@{choix\_fichier}}
+\index{choix\_fichier@{choix\_fichier}!planning\_poker.PageMenu@{planning\_poker.PageMenu}}
+\doxysubsubsection{\texorpdfstring{choix\_fichier()}{choix\_fichier()}}
+{\footnotesize\ttfamily def planning\+\_\+poker.\+Page\+Menu.\+choix\+\_\+fichier (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Ouvrir une boîte de dialogue pour choisir un fichier backlog en .json.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classplanning__poker_1_1PageMenu_a049604b3ddd7b8acbe16bae7d9402afd}\label{classplanning__poker_1_1PageMenu_a049604b3ddd7b8acbe16bae7d9402afd}} 
+\index{planning\_poker.PageMenu@{planning\_poker.PageMenu}!commencer@{commencer}}
+\index{commencer@{commencer}!planning\_poker.PageMenu@{planning\_poker.PageMenu}}
+\doxysubsubsection{\texorpdfstring{commencer()}{commencer()}}
+{\footnotesize\ttfamily def planning\+\_\+poker.\+Page\+Menu.\+commencer (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Lancer le jeu avec les configurations actuelles.
+
+- Vérifie si le backlog est sélectionné.
+- Configure le jeu avec la règle, le backlog et le nombre de joueurs.
+- Lance le jeu et affiche la page de vote.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+planning\+\_\+poker.\+py\end{DoxyCompactItemize}
